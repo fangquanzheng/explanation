@@ -1,1 +1,19 @@
 
+@-webkit-keyframes glow_border {
+	from {
+		box-shadow: 0 0 3px rgba(255, 0, 0, 0.3), 0 0 5px rgba(255, 0, 0, 0.3), 0 0 7px rgba(255, 0, 0, 0.3), 0 0 10px rgba(255, 0, 0, 0.3),
+									0 0 10px rgba(255, 0, 0, 0.3), 0 0 00px #e60073, 0 0 0px #e60073;
+	}
+	to {
+		box-shadow: 0 0 20px rgba(255, 0, 0, 0.3), 0 0 30px rgba(255, 0, 0, 0.3), 0 0 40px rgba(255, 0, 0, 0.3), 0 0 50px rgba(255, 0, 0, 0.3),
+									0 0 60px rgba(255, 0, 0, 0.3), 0 0 70px rgba(255, 0, 0, 0.3), 0 0 80px rgba(255, 0, 0, 0.3);
+	}
+}
+
+.e.note{
+	border:solid;
+	border-width: 5px;
+	border-color: white;
+	animation:glow_border 1s ease-in-out infinite alternate;
+	padding: 30px
+}
