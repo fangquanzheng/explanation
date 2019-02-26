@@ -8,7 +8,17 @@
 	}
 }
 
-.note-box{
+.feature-box{
+	border-style: solid;
+	border:2px 
+	border-width: 3px;
+	border-radius: 50px;
+	border-color: white;
+	margin-top: 50px;
+	padding: 30px;
+	animation:glow_border 2s ease-in-out infinite alternate;
+}
+.design-box{
 	border-style: solid;
 	border:2px 
 	border-width: 3px;
